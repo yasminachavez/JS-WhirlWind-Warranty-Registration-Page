@@ -9,7 +9,8 @@ function createWarrantyPage(){
     document.body.appendChild(element);   
 
     element = document.createElement('p');
-    element.innerHTML = '<p>Streamline the repair process by completing your warranty registration today.<p>'
+    element.innerHTML = 
+    '<p>Streamline the repair process by completing your warranty registration today.<p>'
     document.body.appendChild(element);    
 
     element = document.createElement('h2');
@@ -79,7 +80,7 @@ function createWarrantyPage(){
     element.innerHTML = 'City'
     document.body.appendChild(element);
     
-label = document.createElement('label');
+    label = document.createElement('label');
     label.innerHTML = "State"
     document.body.appendChild(label);
     element = document.createElement('input');
